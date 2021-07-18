@@ -1,0 +1,5 @@
+---
+hosts: "{{server_name}}
+tasks:
+- debug:
+   msg: "Hello world"
